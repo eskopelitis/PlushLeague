@@ -1,8 +1,0 @@
-C:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.Editor.dll
-C:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.Editor.pdb
-C:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.pdb
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.Editor.csproj.AssemblyReference.cache
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.Editor.csproj.CoreCompileInputs.cache
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.Editor.csproj.CopyComplete
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.Editor.dll
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.Editor.pdb

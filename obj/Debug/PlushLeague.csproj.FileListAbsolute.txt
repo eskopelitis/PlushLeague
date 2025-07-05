@@ -1,9 +1,0 @@
-C:\Users\anton\PlushLeague\obj\Debug\PlushLeague.csproj.AssemblyReference.cache
-C:\Users\anton\PlushLeague\obj\Debug\PlushLeague.csproj.CoreCompileInputs.cache
-c:\Users\anton\PlushLeague\Temp\bin\Debug\PlushLeague.dll
-c:\Users\anton\PlushLeague\Temp\bin\Debug\PlushLeague.pdb
-c:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.pdb
-c:\Users\anton\PlushLeague\Temp\bin\Debug\Unity.Fusion.CodeGen.pdb
-C:\Users\anton\PlushLeague\obj\Debug\PlushLeague.csproj.CopyComplete
-c:\Users\anton\PlushLeague\obj\Debug\PlushLeague.dll
-c:\Users\anton\PlushLeague\obj\Debug\PlushLeague.pdb

@@ -1,6 +1,0 @@
-C:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.dll
-C:\Users\anton\PlushLeague\Temp\bin\Debug\Fusion.Unity.pdb
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.csproj.AssemblyReference.cache
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.csproj.CoreCompileInputs.cache
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.dll
-C:\Users\anton\PlushLeague\obj\Debug\Fusion.Unity.pdb
