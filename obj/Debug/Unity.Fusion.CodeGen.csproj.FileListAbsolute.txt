@@ -1,0 +1,6 @@
+C:\Users\anton\PlushLeague\Temp\bin\Debug\Unity.Fusion.CodeGen.dll
+C:\Users\anton\PlushLeague\Temp\bin\Debug\Unity.Fusion.CodeGen.pdb
+C:\Users\anton\PlushLeague\obj\Debug\Unity.Fusion.CodeGen.csproj.AssemblyReference.cache
+C:\Users\anton\PlushLeague\obj\Debug\Unity.Fusion.CodeGen.csproj.CoreCompileInputs.cache
+C:\Users\anton\PlushLeague\obj\Debug\Unity.Fusion.CodeGen.dll
+C:\Users\anton\PlushLeague\obj\Debug\Unity.Fusion.CodeGen.pdb
