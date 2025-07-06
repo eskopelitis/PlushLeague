@@ -2,6 +2,37 @@
 
 **Plush League** is a charming and whimsical 3D soccer game built in Unity, featuring adorable plush toy-style characters competing in fast-paced matches with unique superpowers and abilities.
 
+## 🚩 Current Development Milestone
+
+### **Step 13: Playtesting, Balancing, and Bugfixing** ✅
+**Focus**: Comprehensive quality assurance and game polish through systematic testing and analysis.
+
+**Completed Implementation:**
+- ✅ **Comprehensive Debug Tools**: Complete Step 13 implementation with unified debug dashboard
+- ✅ **Automated Testing Framework**: 15+ test categories covering gameplay, performance, stability, balance, and edge cases
+- ✅ **Real-Time Analytics**: Data collection system with metric tracking, trend analysis, and automated insights
+- ✅ **Bug Reporting System**: In-game bug reporting with categorization, severity tracking, and context capture
+- ✅ **Performance Monitoring**: Real-time FPS, memory usage, and system performance tracking
+- ✅ **Balance Testing Tools**: Win rate analysis, gameplay pacing evaluation, and parameter tuning
+- ✅ **Debug Dashboard**: Unified interface with tabbed organization for all QA tools
+- ✅ **Dedicated Debug Scene**: Complete Step 13 demonstration environment
+
+**Debug Controls:**
+- **F1**: Toggle Debug Dashboard
+- **F2**: Run Test Suite
+- **F3**: Bug Report Panel
+- **F4**: Parameter Tuning
+- **F5**: Emergency Reset
+- **F6**: Toggle Demo Match
+- **F9**: Return to Main Menu
+
+**Key Systems:**
+- **Step13Implementation**: Main coordinator for all playtesting activities
+- **AutomatedTestFramework**: Comprehensive testing with detailed reporting
+- **PlaytestingAnalytics**: Real-time data collection and analysis
+- **DebugDashboard**: Unified interface for all debug tools
+- **PlaytestingManager**: Session management and data coordination
+
 ## 🎮 Game Overview
 
 Plush League combines classic soccer gameplay with fantastical elements, where cute plush toy characters battle it out on the field using special powers, creating an engaging and family-friendly gaming experience.
