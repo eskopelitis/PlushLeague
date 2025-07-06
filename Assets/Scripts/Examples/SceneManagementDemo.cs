@@ -140,13 +140,16 @@ namespace PlushLeague.Examples
                     yield return StartCoroutine(TestFullGameLoop());
                     break;
                 case TestScenario.SceneTransitionsOnly:
-                    yield return StartCoroutine(TestSceneTransitions());
+                    if (testSceneTransitions)
+                        yield return StartCoroutine(TestSceneTransitions());
                     break;
                 case TestScenario.PersistentSettingsOnly:
-                    yield return StartCoroutine(TestPersistentSettings());
+                    if (testPersistentSettings)
+                        yield return StartCoroutine(TestPersistentSettings());
                     break;
                 case TestScenario.ErrorHandling:
-                    yield return StartCoroutine(TestErrorHandling());
+                    if (testEdgeCases)
+                        yield return StartCoroutine(TestErrorHandling());
                     break;
                 case TestScenario.PerformanceTest:
                     yield return StartCoroutine(TestPerformance());
@@ -171,7 +174,10 @@ namespace PlushLeague.Examples
             yield return StartCoroutine(TestPowerSelectionState());
             
             // Step 3: Test Match Flow
-            yield return StartCoroutine(TestMatchState());
+            if (testMatchFlow)
+            {
+                yield return StartCoroutine(TestMatchState());
+            }
             
             // Step 4: Test Post-Match
             yield return StartCoroutine(TestPostMatchState());

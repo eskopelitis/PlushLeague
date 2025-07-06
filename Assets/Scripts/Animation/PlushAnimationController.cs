@@ -191,6 +191,7 @@ namespace PlushLeague.Animation
             isAnimating = false;
             isCelebrating = false;
             isTackled = false;
+            animationTimer = 0f;
         }
         
         #endregion
@@ -246,7 +247,7 @@ namespace PlushLeague.Animation
                 // Squash and stretch
                 if (enableSquashStretch)
                 {
-                    float squash = 1f + Mathf.Sin(celebrationTimer * celebrationSpeed * 1.5f) * squashStretchIntensity;
+                    float squash = 1f + Mathf.Sin(celebrationTimer * squashStretchSpeed * 1.5f) * squashStretchIntensity;
                     plushModel.localScale = new Vector3(originalScale.x * squash, originalScale.y / squash, originalScale.z * squash);
                 }
                 

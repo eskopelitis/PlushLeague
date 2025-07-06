@@ -98,7 +98,7 @@ namespace PlushLeague.Examples
         /// </summary>
         private void HandleDebugInput()
         {
-            if (!enablePlaytesting) return;
+            if (!enablePlaytesting || !enableDebugIntegration) return;
             
             // Toggle debug menu
             if (Input.GetKeyDown(debugMenuKey))

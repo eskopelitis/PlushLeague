@@ -127,17 +127,28 @@ namespace PlushLeague.Debug
         private void ConfigureTools()
         {
             // Configure debug console
-            if (debugConsole != null)
+            if (debugConsole != null && enableOnScreenConsole)
             {
                 debugConsole.AddParameter("test_mode", 1f, 0f, 1f, "Enable test mode");
                 debugConsole.AddParameter("log_level", 2f, 0f, 3f, "Logging level (0=Error, 1=Warning, 2=Info, 3=Debug)");
-                debugConsole.AddParameter("auto_fix", 0f, 0f, 1f, "Enable automatic issue fixing");
+                
+                if (enableParameterTuning)
+                {
+                    debugConsole.AddParameter("auto_fix", 0f, 0f, 1f, "Enable automatic issue fixing");
+                }
                 
                 // Add custom commands
-                debugConsole.RegisterCommand("step13", RunStep13Command);
-                debugConsole.RegisterCommand("testsuite", RunTestSuiteCommand);
-                debugConsole.RegisterCommand("report", GenerateReportCommand);
-                debugConsole.RegisterCommand("analyze", AnalyzeDataCommand);
+                if (enableQuickActions)
+                {
+                    debugConsole.RegisterCommand("step13", RunStep13Command);
+                    debugConsole.RegisterCommand("testsuite", RunTestSuiteCommand);
+                    debugConsole.RegisterCommand("analyze", AnalyzeDataCommand);
+                }
+                
+                if (enableBugReporting)
+                {
+                    debugConsole.RegisterCommand("report", GenerateReportCommand);
+                }
             }
             
             // Configure playtesting manager

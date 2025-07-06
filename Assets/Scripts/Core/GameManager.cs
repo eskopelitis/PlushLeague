@@ -364,7 +364,15 @@ namespace PlushLeague.Core
         
         private void HandleMatchSetupState()
         {
-            StartCoroutine(SetupMatchCoroutine());
+            // Load match scene if not integrated and not already in match scene
+            if (!useIntegratedPowerSelection && !string.IsNullOrEmpty(matchSceneName) && currentSceneName != matchSceneName)
+            {
+                LoadScene(matchSceneName, GameState.MatchSetup);
+            }
+            else
+            {
+                StartCoroutine(SetupMatchCoroutine());
+            }
         }
         
         private void HandleMatchActiveState()

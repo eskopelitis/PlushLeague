@@ -185,10 +185,10 @@ namespace PlushLeague.Examples
             
             do
             {
-                // Run all scenarios
-                for (currentScenarioIndex = 0; currentScenarioIndex < scenarios.Count; currentScenarioIndex++)
-                {
-                    var scenario = scenarios[currentScenarioIndex];
+                // Run all scenarios            for (currentScenarioIndex = 0; currentScenarioIndex < scenarios.Count; currentScenarioIndex++)
+            {
+                currentScenario = currentScenarioIndex;
+                var scenario = scenarios[currentScenarioIndex];
                     LogDemo($"\\n--- Running Scenario {currentScenarioIndex + 1}/{scenarios.Count}: {scenario.name} ---");
                     LogDemo($"Description: {scenario.description}");
                     
@@ -255,11 +255,14 @@ namespace PlushLeague.Examples
             {
                 if (gameManager.currentState != PlushLeague.Core.GameManager.GameState.Menu)
                 {
-                    LogDemo("Not in menu state - returning to menu");
-                    gameManager.ReturnToMenu();
-                    
-                    // Wait for transition
-                    yield return new WaitForSeconds(stepDelay);
+                    if (testReturnToMenuFlow)
+                    {
+                        LogDemo("Not in menu state - returning to menu");
+                        gameManager.ReturnToMenu();
+                        
+                        // Wait for transition
+                        yield return new WaitForSeconds(stepDelay);
+                    }
                 }
             }
             
